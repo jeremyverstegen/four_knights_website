@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+}
+
+
+
+.static {
+    margin-top: 50%;
+    position: center;
+}
+
+
+.parallax {
+    background-image: url("/img/knight_bnw_piotr_Makowski.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;    
+    }
+}
